@@ -1,0 +1,90 @@
+@import "./common.css";
+/* @import '/css/about_me.css'
+@import '/css/hero.css'
+@import '/css/projects.css' */
+
+
+
+/* Service Section starts */
+
+/* #services{
+    max-width: 60%;
+    margin: 0 auto ;
+} */
+
+#services .services{
+    flex-direction: column;
+    text-align: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 100px 0 ;
+}
+
+#services .service-top p{
+    padding: 1rem;
+    margin-top: 5px;
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+    font-weight: 390;
+    color: black;
+    margin-bottom: 15px;
+}
+
+#services .service-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#services .service-item{
+    flex-basis: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-image: url("/img/img-1.png");
+    background-size: cover;
+    /* background: red; */
+    border-radius:10px ;
+    padding: 30px;
+    margin: 10px 5%;
+    /* color: white ; */
+    position: relative;
+    z-index: 1;
+}
+#services .service-item:after{
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: black; */
+    background-image: linear-gradient(60deg,#29323c 0%, #485563 100%) !important;
+    border-radius: 10px;
+    opacity: 0.55;
+    z-index: -1;
+}
+
+#services .service-bottom .icon{
+    height: 80%;
+    width: 80px;
+    margin-bottom: 20px;
+}
+#services .service-item h2 {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+#services .service-item p {
+    font-size: 1.2rem;
+    color: white;
+    text-align: left;
+    line-height: 1.9rem;
+}
+
+/* Service Section ends */
+
+
+
